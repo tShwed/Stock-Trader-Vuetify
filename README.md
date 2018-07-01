@@ -1,6 +1,6 @@
 # stock-trader-vuetify
 
-> A Vue.js project
+> A Vue.js SPA Stock Trader. Built using Vue.js, Vuetify, VueX, and Vue Router
 
 ## Build Setup
 
