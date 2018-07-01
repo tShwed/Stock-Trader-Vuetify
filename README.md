@@ -1,6 +1,8 @@
-# stock-trader-vuetify
+# Vue Stock Trader
 
-> A Vue.js SPA Stock Trader. Built using Vue.js, Vuetify, VueX, and Vue Router
+> A Vue.js SPA Stock Trader. Built using Vue.js, Vuetify, VueX, Vue Router, and Firebase
+
+> User is allocated $10,000 in funds to purchase stocks. User can save their portfolio and load it at a later time. User can end the trading day to see how their stocks performed
 
 ## Build Setup
 
