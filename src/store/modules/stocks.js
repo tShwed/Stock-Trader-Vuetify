@@ -2,7 +2,6 @@ import stocks from '../../data/stocks'
 
 const state= {
     stocks: [], 
-    priceChange: 0
 }
 
 const mutations = {
@@ -13,8 +12,8 @@ const mutations = {
         state.stocks.forEach(stock => {
             let num = Math.floor(Math.random()*50) + 1; 
             num *= Math.floor(Math.random()*2) == 1 ? 1 : -1;
+            stock.priceChange = num; 
             stock.price = stock.price + num ; 
-            state.priceChange = num; 
             if(stock.price <= 0) {
                 stock.price = 0;
             }

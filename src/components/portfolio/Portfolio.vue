@@ -4,8 +4,7 @@
             <app-stock 
                 v-for="stock in stocks"
                 :key="stock"
-                :stock="stock"
-                :priceChange="priceChange"></app-stock>
+                :stock="stock"></app-stock>
         </div>
     </div>
 </template>
@@ -17,8 +16,7 @@
     export default {
         computed: {
             ...mapGetters({
-                stocks: 'stockPortfolio', 
-                priceChange: 'priceChange'
+                stocks: 'stockPortfolio'
             })
         }, 
         components: {

@@ -4,7 +4,7 @@
             <div class="panel-heading">
                 {{ stock.name }}
                 <small>(Price: {{ stock.price }} | Quantity: {{ stock.quantity }}) </small>
-                <span>Value from Yesterday: {{ priceChange }}</span>
+                <span>Price change: {{ stock.priceChange }}</span>
             </div>
             <div class="panel-body">
                     <form class="form-inline">
@@ -28,7 +28,7 @@
 <script>
     import {mapActions} from 'vuex'; 
     export default {
-        props: ['stock','priceChange'],
+        props: ['stock'],
         data() {
             return {
                 quantity: 0
